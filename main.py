@@ -1,34 +1,28 @@
-# dirty_dozen = [
-#     "Strawberries",
-#     "Spinach",
-#     "Kale",
-#     "Peaches",
-#     "Pears",
-#     "Nectarines",
-#     "Apples",
-#     "Grapes",
-#     "Bell and Hot Peppers",
-#     "Cherries",
-#     "Blueberries",
-#     "Green Beans"
-# ]
-fruites = [
-    "Strawberries",
-    "Peaches",
-    "Pears",
-    "Nectarines",
-    "Apples",
-    "Grapes",
-    "Cherries",
-    "Blueberries"
-]
+import random
 
-vegetables = [
-    "Spinach",
-    "Kale",
-    "Bell and Hot Peppers",
-    "Green Beans"
-]
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
 
-dirty_dozen = [fruites, vegetables]
-print(dirty_dozen)
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
